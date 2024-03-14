@@ -20,19 +20,40 @@
 }
 
 .input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form-group {
   margin-bottom: 20px;
-  background-color: burlywood;
 }
 
-.joke {
-  color: navy;
-  font-style: normal;
-  padding: 8px;
+
+.form-label {
+  font-weight: bold;
 }
 
+
+
+
+/* App.css */
+
+/* Styles for the 'My Joke' table header */
 .yed {
-  color: darkslategray;
+  font-weight: bold;
+  color: #007bff;
+  text-align:center; /* Adjust font color as needed */
+  /* Add more styles as needed */
 }
+
+
+/* .yed {
+  color: darkslategray;
+} */
 
 .homeContainer {
   margin-top: 20px;
@@ -48,12 +69,32 @@
   margin-bottom: 20px;
 }
 
-.btn {
-  margin-top: 20px;
+/* App.css */
+
+/* Styles for the button */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  
+  border-radius: 10px;
 }
 
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+
 td {
-  border: 3px solid black;
+  border: 2px solid grey;
   padding: 8px;
 }
 
@@ -64,14 +105,17 @@ td {
 
 .table {
   margin-top: 20px;
+  text-align:left;
 }
 
 .header {
   margin-bottom: 10px; /* Adjust the margin to your preference */
   text-decoration: blink;
-  color: skyblue;
+  color: rgb(211, 111, 24);
 }
-
+.ted{
+  color: white;
+}
 .loginContainer {
   width: 100%;
   
@@ -83,7 +127,20 @@ td {
   background-color: grey;
   border-top-right-radius: 20px;
 }
+.dummy{
+  background-color: #6c757d;
+  color:white;
+  border-radius: 20px;
+  padding: 3px;
+  margin-top:10px;
+}
 
+.loginContainer .header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px; /* Adjust font size as needed */
+  color:peachpuff;/* Adjust font color as needed */
+}
 
 
 
