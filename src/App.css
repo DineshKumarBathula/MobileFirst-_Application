@@ -39,7 +39,10 @@
   color: black;
   text-align: start;
   border-radius: 20%;
+  overflow-y: auto; /* Add this property to enable vertical scrolling */
+  max-height: calc(100vh - 120px); /* Set maximum height to prevent overflow */
 }
+
 
 .form-group {
   margin-bottom: 20px;
@@ -70,10 +73,17 @@ td {
 }
 
 .loginContainer {
-  margin-bottom: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-center; /* Align items to the top */
+  flex-direction: column;
   background-color: grey;
   border-top-right-radius: 20px;
 }
+
+
 
 
 @media (max-width: 767px) {
