@@ -38,7 +38,7 @@
   margin-top: 20px;
   color: black;
   text-align: start;
-  border-radius: 20%;
+ 
   overflow-y: auto; /* Add this property to enable vertical scrolling */
   max-height: calc(100vh - 120px); /* Set maximum height to prevent overflow */
 }
@@ -67,17 +67,18 @@ td {
 }
 
 .header {
-  margin-bottom: auto;
+  margin-bottom: 10px; /* Adjust the margin to your preference */
   text-decoration: blink;
   color: skyblue;
 }
 
 .loginContainer {
   width: 100%;
+  
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-center; /* Align items to the top */
+  align-items: center; /* Align items to the top */
   flex-direction: column;
   background-color: grey;
   border-top-right-radius: 20px;

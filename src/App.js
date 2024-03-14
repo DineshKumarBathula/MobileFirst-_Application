@@ -47,7 +47,7 @@ const App = () => {
     <div className='container'>
       {!isLoggedIn ? (
         <div className='loginContainer'>
-          <h2 className='header'>Login</h2>
+          <h1 className='header'>Login</h1>
           {error && <p className='error'>{error}</p>}
           <Form onSubmit={handleLogin}>
             <Form.Group controlId="formBasicEmail">
