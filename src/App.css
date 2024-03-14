@@ -1,38 +1,91 @@
-.App {
+
+.container {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: peachpuff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  color: royalblue;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-danger {
+  color: red;
 }
+
+.input {
+  margin-bottom: 20px;
+  background-color: burlywood;
+}
+
+.joke {
+  color: navy;
+  font-style: normal;
+  padding: 8px;
+}
+
+.yed {
+  color: darkslategray;
+}
+
+.homeContainer {
+  margin-top: 20px;
+  color: black;
+  text-align: start;
+  border-radius: 20%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+td {
+  border: 3px solid black;
+  padding: 8px;
+}
+
+.span {
+  color: bisque;
+  text-align: end;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.header {
+  margin-bottom: auto;
+  text-decoration: blink;
+  color: skyblue;
+}
+
+.loginContainer {
+  margin-bottom: 20px;
+  background-color: grey;
+  border-top-right-radius: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .name {
+    font-size: 18px;
+  }
+
+ 
+}
+
