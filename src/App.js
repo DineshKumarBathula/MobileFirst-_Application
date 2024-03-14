@@ -71,7 +71,7 @@ const App = () => {
                   <th className='yed'>Jokes</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className='ted'>
                 {jokes.map((joke, index) => (
                   <tr key={index}>
                     <td>{index + 1}</td>

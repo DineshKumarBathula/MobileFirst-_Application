@@ -40,28 +40,23 @@
 
 
 
-/* App.css */
 
-/* Styles for the 'My Joke' table header */
 .yed {
   font-weight: bold;
   color: #007bff;
-  text-align:center; /* Adjust font color as needed */
-  /* Add more styles as needed */
+  text-align:center; 
+ 
 }
 
 
-/* .yed {
-  color: darkslategray;
-} */
 
 .homeContainer {
   margin-top: 20px;
   color: black;
   text-align: start;
  
-  overflow-y: auto; /* Add this property to enable vertical scrolling */
-  max-height: calc(100vh - 120px); /* Set maximum height to prevent overflow */
+  overflow-y: auto; 
+  max-height: calc(100vh - 120px); 
 }
 
 
@@ -69,9 +64,7 @@
   margin-bottom: 20px;
 }
 
-/* App.css */
 
-/* Styles for the button */
 .button {
   background-color: #007bff;
   color: #fff;
@@ -109,7 +102,7 @@ td {
 }
 
 .header {
-  margin-bottom: 10px; /* Adjust the margin to your preference */
+  margin-bottom: 10px; 
   text-decoration: blink;
   color: rgb(211, 111, 24);
 }
@@ -122,7 +115,7 @@ td {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; /* Align items to the top */
+  align-items: center; 
   flex-direction: column;
   background-color: grey;
   border-top-right-radius: 20px;
@@ -138,8 +131,8 @@ td {
 .loginContainer .header {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 24px; /* Adjust font size as needed */
-  color:peachpuff;/* Adjust font color as needed */
+  font-size: 24px; 
+  color:peachpuff;
 }
 
 
@@ -160,10 +153,10 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Adjust the height based on your design */
+  height: 200px; 
 }
 
-/* Adjust loader styles as needed */
+
 .react-spinner_loader {
   margin: auto;
 }
